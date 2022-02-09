@@ -1,0 +1,77 @@
+
+    {
+	"data": {
+		"0": {
+			"sku": "663321",
+			"name": "Grey Glue Gun",
+			"description": "Glue gun. Comes packaged with 3 glue sticks.",
+			"stock-level": 57,
+			"price": 10.99,
+			"image": "https://testapi.oglsoftware.co.uk/images/663321.jpg"
+		},
+		"1": {
+			"sku": "886354",
+			"name": "Electric Fret Jigsaw",
+			"description": "Electril 120v fret jigsaw.",
+			"stock-level": 12,
+			"price": 45.49,
+			"image": "https://testapi.oglsoftware.co.uk/images/886354.jpg"
+		},
+		"2": {
+			"sku": "887411",
+			"name": "Lightweight Cordless Drill",
+			"description": "Brushless lightweight cordless drill.",
+			"stock-level": 4,
+			"price": 58.99,
+			"image": "https://testapi.oglsoftware.co.uk/images/887411.jpg"
+		},
+		"3": {
+			"sku": "114477",
+			"name": "Gasoline Chainsaw",
+			"description": "Gasoline powered chainsaw.",
+			"stock-level": 0,
+			"price": 99.99,
+			"image": "https://testapi.oglsoftware.co.uk/images/114477.jpg"
+		},
+		"4": {
+			"sku": "99354",
+			"name": "Corded Power Drill",
+			"description": "Brushless corded power drill.",
+			"stock-level": 6,
+			"price": 58.50,
+			"image": "https://testapi.oglsoftware.co.uk/images/99354.jpg"
+		},
+		"5": {
+			"sku": "445378",
+			"name": "Battery Powered Torch",
+			"description": "50 lumen battery powered torch.",
+			"stock-level": 105,
+			"price": 9.99,
+			"image": "https://testapi.oglsoftware.co.uk/images/445378.jpg"
+		},
+		"6": {
+			"sku": "9128960",
+			"name": "Hand Tool Kit",
+			"description": "Budget hand tool kit.",
+			"stock-level": 0,
+			"price": 32.99,
+			"image": "https://testapi.oglsoftware.co.uk/images/9128960.jpg"
+		},
+		"7": {
+			"sku": "9128961",
+			"name": "Hand Tool Kit by Natural Precision Tools",
+			"description": "Premium 13 piece hand tool kit.",
+			"stock-level": 1,
+			"price": 45.49,
+			"image": "https://testapi.oglsoftware.co.uk/images/9128961.jpg"
+		},
+		"8": {
+			"sku": "4318666",
+			"name": "Sandpaper Sheets",
+			"description": "Quality 120 grit sandpaper sheets.",
+			"stock-level": 86,
+			"price": 5.99,
+			"image": "https://testapi.oglsoftware.co.uk/images/4318666.jpg"
+		}
+	}
+    }

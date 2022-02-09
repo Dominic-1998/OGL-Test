@@ -1,13 +1,18 @@
-import data from "https://testapi.oglsoftware.co.uk/products"
-document.getElementById("Test").innerText = "Bonjour";
+getImages()
+async function getImages(){
+  let response = await fetch('https://testapi.oglsoftware.co.uk/products');
+  let data = await response.json();
+  console.log(data);
+  for(var i = 0; i < data['data'].length; i++){
+    console.log(data['data'][i]['sku']);
+    console.log("test")
+  };
+}
 
-fetch('./json/people.json')
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data){
-    appendData(data);
-  })
-  .catch(function (err) {
-    console.log(err);
-  });
+// await fetch('https://testapi.oglsoftware.co.uk/products')
+//   .then(response => {
+//     console.log(response)
+//   })
+
+// let test = data['data'][0]['sku'];
+// console.log(test);
