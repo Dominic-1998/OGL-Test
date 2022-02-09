@@ -1,12 +1,13 @@
-getImages()
-async function getImages(){
+getProducts().catch(error =>{
+  console.log(error);
+})
+async function getProducts(){
   let response = await fetch('https://testapi.oglsoftware.co.uk/products');
   let data = await response.json();
   console.log(data);
-  for(var i = 0; i < data['data'].length; i++){
-    console.log(data['data'][i]['sku']);
-    console.log("test")
-  };
+  for (const key in data['data']){
+    console.log(data['data'][key]['sku'])
+  }
 }
 
 // await fetch('https://testapi.oglsoftware.co.uk/products')
