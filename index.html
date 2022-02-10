@@ -10,19 +10,21 @@
 </head>
 
 <body>
-  <table>
-    <thead>
-      <tr>
-        <th>SKU</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Stock</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-    <tbody id="tbody">
-    </tbody>
-  </table>
+  <div class="main">
+    <table class="table" id="table">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)" scope="col"><a href="#" class="sort-by">SKU</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Stock</th>
+          <th onclick="sortTable(4)" scope="col"><a href="#" class="sort-by">Price</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+  </div>
 </body>
-
 </html>
