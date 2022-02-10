@@ -1,2 +1,2 @@
 # OGL Test
- Test HTML, CSS & JavaScript
+ Importing JSON data through an API then creating HTML table of the data.
